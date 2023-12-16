@@ -17,6 +17,9 @@ body {
     width: 550px;
     margin-right: 40px;
     float: left;
+    border: 2px solid black;
+    border-radius: 2px;
+    box-shadow: 2px;
 }
 #wrapper{
     min-height: 100%;
@@ -43,6 +46,9 @@ footer{
 }
 .services_img {
     width: 240px;
+    border: 2px solid black;
+    border-radius: 2px;
+    box-shadow: 2px;
 }
 .service_item {
     margin-left: 40px;
@@ -203,9 +209,4 @@ tr:nth-child(even) {background: #C9E3FE}
 #uslug {
     color: pink;
     text-transform: uppercase;
-}
-img {
-    border: 2px solid black;
-    border-radius: 2px;
-    box-shadow: 2px;
 }
